@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Adding process</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <style>
+  body {
+	background-image: url('https://images.squarespace-cdn.com/content/v1/56eabc9c4c2f85a15d46f595/1464624554955-CNLIVU2Y7S1QESIRSN6S/ke17ZwdGBToddI8pDm48kI3Ezr7syYGFbBUQtfAvJ2AUqsxRUqqbr1mOJYKfIPR7ZXb6hF5j5ch6jAYnmSmdIm_dEKLDaHtaXN5HVj9jU9M1g-OzbrkWE2b7aXdweWNBInPi9iDjx9w8K4ZfjXt2dvDFfXbB9lXIQZDIqMjAC2GZKsnB5APlalCMC1E9eGSMbSexTd1-frD7527z4SM9QQ/Standard-Bank-SAPOA-Shoot-2-Feb-2014-Hi-Res-12-%5Brev%5D_SFW1500px.jpg?format=1500w');
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  </style>
+</head>
+
+<br>
+<body style="padding:80px 80px">
+
+
+<div class="well">
+<div class="container-fluid text-center">
+  <h2>Adding new business process</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Please select a process from the list below</label>
+
+	
+  <div class="form-group" style="background-image:verny.png;">
+    <select class="form-control" id="exampleFormControlSelect1">
+      {%for system in systems%}
+		<option>{{system}}</option>
+	  {%endfor%}
+    </select>
+  </div>
+  
+	</div>
+ 
+     <label for="pwd">Description of process</label>
+     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+	 <br>
+	 <button type="submit" class="btn btn-default">Submit</button>
+</div>
+  </form>
+</div>
+</div>
+
+</body>
+</html>

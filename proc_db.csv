@@ -1,0 +1,42 @@
+Business_Process_Name,system_name,description
+(Replication)Profiling & Data Engineering: Data Acquisition and profiling,,
+Reporting and Dashboardin,,
+Remediation and Ops support:,,
+Visualization and App Development,,
+Process - Information Assets,,
+Contactability Portal,SAP CRM 7 (new) - Customer Information Management,"Customer Relationship Management, responsible for the management of the customer / party information database"
+BUSINESS INFORMATION ARCHITECTURE,,
+DATA DESIGN AND VERIFICATION - Analysis and Verification,,
+DATA LANDSCAPE OPTIMIZATION- Operational Report Management System,Mobius ViewDirect,"A document archiving system, which we use to archive information and operational reports, as well as archiving of IT3b and IT3s statements. All the information and operational reports are accessed and maintained through ReportViewer."
+DATA LANDSCAPE OPTIMIZATION-  Statements on Mobius,,
+INFORMATION GOVERNANCE - Risk Governance Proccess,,
+INFORMATION GOVERNANCE - Governance Documentation,,
+INFORMATION GOVERNANCE - Health & Safety Information,,
+INFORMATION MATURITY MANAGEMENT,,
+INFORMATION MATURITY MANAGEMENT,,
+MASTER DATA MANAGEMENT - RDM,RDM,
+MASTER DATA MANAGEMENT - RDM,,
+MASTER DATA MANAGEMENT - RDM,,
+MASTER DATA MANAGEMENT - RDM,,
+MASTER DATA MANAGEMENT - DATA SOURCES,,
+MASTER DATA MANAGEMENT - RDM,,
+MASTER DATA MANAGEMENT - PARTNER SYNC,Partner Sync,Application to ensure customer data synchronisation between SAP CRM 7 New (Master) and all Product and Internal Partner Systems.
+RECORDS MANAGEMENT,,
+RECORDS MANAGEMENT,,
+RECORDS MANAGEMENT,,
+RECORDS MANAGEMENT,,
+Knowledge Management,,
+BUSINESS AND COMMERCIAL BANKING (BCB) REM,,
+BUSINESS PARTNER ID  MERGES AND RETAIL CDG,,
+CUSTOMER DATA ISSUES MANAGEMENT,,
+CUSTOMER 1st BUSINESS REPORT,Card Processing System (CPS),"DELETE DUPLICATE - SA Card Management system hosting SA Credit and cheque cards and Swaziland and Lesotho credit card products. CPS (Card Processing System) is used for cheque and credit card issuance and credit card account management, it also host the prepaid component of South Africa's blister-pack debit cards. It also acts as the transaction and limit authorisation engine for these card products. ;Managing credit cards;Real-time authorisations for credit cards Card Division Management System - Basic data; Enquiries; Statements etc…  Supports the issuing business in terms of opening new accounts; producing plastics; processing Cardholder transactions and providing statements.  Maintains details of SBSA credit cardholders and their card accounts."
+CUSTOMER 1st BUSINESS REPORT,SAP CRM 7 (new) - Customer Information Management,"Customer Relationship Management, responsible for the management of the customer / party information database"
+NEW TO BANK (NTB) QUALITY ASSURANCE,Card Processing System (CPS),"DELETE DUPLICATE - SA Card Management system hosting SA Credit and cheque cards and Swaziland and Lesotho credit card products. CPS (Card Processing System) is used for cheque and credit card issuance and credit card account management, it also host the prepaid component of South Africa's blister-pack debit cards. It also acts as the transaction and limit authorisation engine for these card products. ;Managing credit cards;Real-time authorisations for credit cards Card Division Management System - Basic data; Enquiries; Statements etc…  Supports the issuing business in terms of opening new accounts; producing plastics; processing Cardholder transactions and providing statements.  Maintains details of SBSA credit cardholders and their card accounts."
+NEW TO BANK (NTB) QUALITY ASSURANCE,SAP CRM 7 (new) - Customer Information Management,"Customer Relationship Management, responsible for the management of the customer / party information database"
+Remediation  BOT Proccess,,
+New to Bank Remedation,,
+Legacy Statues Remediation,,
+ROOT CAUSE MANAGEMENT,SAP CRM 7 (new) - Customer Information Management,"Customer Relationship Management, responsible for the management of the customer / party information database"
+DATA MANAGEMENT,,
+PBB Source System List,,
+SYSTEMATIC DATA REMEDIATION,SAP CRM 7 (new) - Customer Information Management,"Customer Relationship Management, responsible for the management of the customer / party information database"
