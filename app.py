@@ -36,7 +36,3 @@ def adding_procs():
 def viewing_procs():
 	return render_template('viewing_procs.html')
 
-
-
-if __name__ == '__main__':
-	app.run(debug=True)
