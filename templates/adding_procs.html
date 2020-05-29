@@ -10,7 +10,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <style>
   body {
-	background-image: url('https://images.squarespace-cdn.com/content/v1/56eabc9c4c2f85a15d46f595/1464624554955-CNLIVU2Y7S1QESIRSN6S/ke17ZwdGBToddI8pDm48kI3Ezr7syYGFbBUQtfAvJ2AUqsxRUqqbr1mOJYKfIPR7ZXb6hF5j5ch6jAYnmSmdIm_dEKLDaHtaXN5HVj9jU9M1g-OzbrkWE2b7aXdweWNBInPi9iDjx9w8K4ZfjXt2dvDFfXbB9lXIQZDIqMjAC2GZKsnB5APlalCMC1E9eGSMbSexTd1-frD7527z4SM9QQ/Standard-Bank-SAPOA-Shoot-2-Feb-2014-Hi-Res-12-%5Brev%5D_SFW1500px.jpg?format=1500w');
+	background-image: url('https://www.isasa.org/wp-content/uploads/2014/01/standard-bank-1155x770.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
   }
@@ -21,30 +21,31 @@
 <body style="padding:80px 80px">
 
 
-<div class="well">
-<div class="container-fluid text-center">
+<div class="container pt-3">
+<div class="container bg-primary text-center" style="background-color:white;opacity:1 padding:10px 20px">
   <h2>Adding new business process</h2>
   <form action="/action_page.php">
     <div class="form-group">
       <label for="email">Please select a process from the list below</label>
 
 	
-  <div class="form-group" style="background-image:verny.png;">
+  <div class="form-group">
     <select class="form-control" id="exampleFormControlSelect1">
       {%for system in systems%}
 		<option>{{system}}</option>
 	  {%endfor%}
     </select>
+	<br>
+	<textarea class="form-control"></textarea>
+	<button type="submit" class="btn btn-default" style="padding:10px 20px">Submit</button>
   </div>
   
 	</div>
- 
-     <label for="pwd">Description of process</label>
-     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-	 <br>
-	 <button type="submit" class="btn btn-default">Submit</button>
 </div>
   </form>
+     <label for="pwd">Description of process</label>
+	 <br>
+	 <button type="submit" class="btn btn-default" style="padding:10px 20px">Submit</button>
 </div>
 </div>
 

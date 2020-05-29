@@ -12,13 +12,73 @@
 		body {
 			background-image: url("https://www.regentlight.co.za/wp-content/uploads/2017/11/standard_bank_2.jpg");
 			background-size: cover;
+			background-repeat: no-repeat;
 		}
 		</style>
 		<title>Viewing Processes</title>
 	</head>
 	
 	<body>
-		<p>Hello World!</p>
+		<br>
+		<div class="container bg-primary" style="opacity:0.3; padding:10px 10px">
+			<h3 style="color:white;">View information on specific Business Processes</h3>
+		</div>
+<br>
+<div class="container" style="opacity:0.6">
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-center" style="opacity:0.6">
+  <ul class="navbar-nav" style="padding:5px 10px">
+  
+	<li class="nav-item">
+      <a class="nav-link" href="{{url_for('HomePage')}}" style="color:black">Home</a>
+    </li>
+	
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" style="color:black" data-toggle="dropdown">Data Governance</a>
+	  <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">What is Data Governance</a>
+      </div>
+    </li>
+	
+	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:black">
+        Business Processes
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="{{url_for('viewing_procs')}}">View Process Information</a>
+        <a class="dropdown-item" href="{{url_for('adding_procs')}}">Add New Process</a>
+      </div>
+    </li>
+	
+    <li class="nav-item">
+      <a class="nav-link" href="{{url_for('HomePage')}}" style="color:black">Meet the team</a>
+    </li>
+	
+	<li class="nav-item">
+      <a class="nav-link" href="#" style="color:black">Help</a>
+    </li>
+	
+  </ul>
+</nav>
+</div>
+		
+<div class="container text-center" style="opacity:1; padding:30px;">	
+<div class="form-group">
+  <form action='#' method="post">
+  <label for="sel1" style="padding:20px 50px; color:white;">Select a Business Process to view information</label>
+    <select class="form-control" id="exampleFormControlSelect1" name="system_selected">
+      {%for system in systems%}
+		<option>{{system}}</option>
+	  {%endfor%}
+    </select>
+	<button type="submit" class="btn btn-default" style="padding:10px 20px; color:white;">View</button>
+	</form>
+</div>
+
+
+
+</div>
+		
+		
 	</body>
 	
 	
